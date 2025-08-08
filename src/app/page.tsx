@@ -5,7 +5,7 @@ import { getNews } from '@/lib/news';
 import { CATEGORIES } from '@/lib/constants';
 import { NewsFeed } from '@/components/news-feed';
 
-export const revalidate = 3600 * 4; // Revalidate every 4 hours
+export const revalidate = 14400; // Revalidate every 4 hours
 
 export default async function Home({
   searchParams,
